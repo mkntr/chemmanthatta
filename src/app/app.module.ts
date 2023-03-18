@@ -11,6 +11,9 @@ import { PoojaComponent } from './pooja/pooja.component';
 import { DevaswomComponent } from './devaswom/devaswom.component';
 import { FestivalComponent } from './festival/festival.component';
 import { ConnectComponent } from './connect/connect.component';
+import { BannerComponent } from './banner/banner.component';
+import { PreludeComponent } from './prelude/prelude.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ConnectComponent } from './connect/connect.component';
     PoojaComponent,
     DevaswomComponent,
     FestivalComponent,
-    ConnectComponent
+    ConnectComponent,
+    BannerComponent,
+    PreludeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

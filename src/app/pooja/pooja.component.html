@@ -1,1 +1,27 @@
-<p>pooja works!</p>
+<div class="row">
+    <div class="col">
+        <!-- Displays the main temple entrance image -->
+        <app-banner></app-banner> 
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="row">
+            <p>Darshan Timing and Pooja Timing</p>
+        </div>
+        <div class="row">
+            <p>Special Poojas</p>
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor="let pooja of specialpooja">{{pooja}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="col">
+        <div class="row">
+            <p>Vazipadu List</p>
+        </div>
+        <div class="row">
+            <p>Bank Account Details, QR Code Details</p>
+        </div>
+    </div>
+</div>
