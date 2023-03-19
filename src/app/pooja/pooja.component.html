@@ -4,24 +4,23 @@
         <app-banner></app-banner> 
     </div>
 </div>
-<div class="row">
-    <div class="col">
-        <div class="row">
-            <p>Darshan Timing and Pooja Timing</p>
-        </div>
-        <div class="row">
-            <p>Special Poojas</p>
-            <ul class="list-group">
-                <li class="list-group-item" *ngFor="let pooja of specialpooja">{{pooja}}</li>
-            </ul>
-        </div>
-    </div>
-    <div class="col">
-        <div class="row">
-            <p>Vazipadu List</p>
-        </div>
-        <div class="row">
-            <p>Bank Account Details, QR Code Details</p>
-        </div>
-    </div>
+<div class="table-responsive">
+    <table class="table table-striped caption-top">
+        <caption>Special Poojas</caption>
+        <thead>
+        <tr>
+            <th scope="col">Malayalam Month</th>
+            <th scope="col">Upasana Moorthy</th>
+            <th scope="col">Pooja Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let record of specialpooja">
+            <td>{{record.month}}</td>
+            <td>{{record.moorthy}}</td>
+            <td>{{record.description}}</td>
+        </tr>
+
+        </tbody>
+    </table>
 </div>
