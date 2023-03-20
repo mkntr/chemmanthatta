@@ -4,23 +4,23 @@
         <app-banner></app-banner> 
     </div>
 </div>
-<div class="table-responsive">
-    <table class="table table-striped caption-top">
-        <caption>Special Poojas</caption>
-        <thead>
-        <tr>
-            <th scope="col">Malayalam Month</th>
-            <th scope="col">Upasana Moorthy</th>
-            <th scope="col">Pooja Description</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr *ngFor="let record of specialpooja">
-            <td>{{record.month}}</td>
-            <td>{{record.moorthy}}</td>
-            <td>{{record.description}}</td>
-        </tr>
+<!-- Place buttons for Darshan Timing,Vazhipadu List, Special Poojas,Bank Account / QR code Details -->
 
-        </tbody>
-    </table>
+<div class="row">
+    <div class="col">
+        <button type="button" class="btn btn-primary me-2 my-2 btn-sm" (click)="scroll('darshan')" >Darshan Timing</button>
+        <button type="button" class="btn btn-success me-2 btn-sm" (click)="scroll('vazhipadu')">Vazhipadu</button>
+        <button type="button" class="btn btn-warning me-2 btn-sm" (click)="scroll('specialpooja')" >Special Poojas</button>
+        <button type="button" class="btn btn-info me-2 btn-sm" (click)="scroll('account')">Contribution</button>
+    </div>
 </div>
+
+<!-- 1. Darshan Timing And Pooja Timing -->
+<app-darshan id="darshan"></app-darshan>
+<!-- 2. Vazhipadu List -->
+<app-vazhipadu id="vazhipadu"></app-vazhipadu>
+<!-- 3. Special Poojas -->
+<app-specialpooja id="specialpooja"></app-specialpooja>
+<!-- 4. Account Details -->
+<app-account id="account"></app-account>
+

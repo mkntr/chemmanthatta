@@ -14,6 +14,10 @@ import { ConnectComponent } from './connect/connect.component';
 import { BannerComponent } from './banner/banner.component';
 import { PreludeComponent } from './prelude/prelude.component';
 import { AboutComponent } from './about/about.component';
+import { DarshanComponent } from './darshan/darshan.component';
+import { SpecialpoojaComponent } from './specialpooja/specialpooja.component';
+import { VazhipaduComponent } from './vazhipadu/vazhipadu.component';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { AboutComponent } from './about/about.component';
     ConnectComponent,
     BannerComponent,
     PreludeComponent,
-    AboutComponent
+    AboutComponent,
+    DarshanComponent,
+    SpecialpoojaComponent,
+    VazhipaduComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,

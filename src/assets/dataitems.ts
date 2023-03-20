@@ -1,5 +1,6 @@
 import {Navitem} from '../app/model/navitem'
-import { Specialpooja } from '../app/model/specialpooja'
+import {Specialpooja } from '../app/model/specialpooja'
+import {Darshan} from '../app/model/darshan'
 
 export const NAVITEMS: Navitem[] = [
     {id:1, name:'Home'},
@@ -30,21 +31,6 @@ export const POEM = [
 "To remove all my miseries?",
 "Lord Sankara! remove my sorrows, Parvathinatha, protect me,", 
 "You be the Guardian of all my karmas, protect me, the Purifier!" ]
-
-// export const SPECIALPOOJA = [
-// "Special poojas to Lord Vishnu (Narasimha Murthy) on Ashtami Rohini day and Thiruvonam day in the month of Chingam.",
-// "Navratri is important during Kanni Thulam months. In the symbolic presence of Goddess Saraswati, Pooja veppu is conducted and special poojas are held for the Nagas on the day of Ayilyam",
-// "Mandala time is important in the month of Vrischikam. For Saastha, special poojas and kettunira are conducted. Trikala pooja is important for Bhagavati.",
-// "Udayastamana Puja is a special ritual conducted for Sri Mahadev during the month of Sagittarius Thirvathira Nakshatra",
-// "Shivratri is very important in the month of Kumbham month. Evening niramala and other special poojas are conducted",
-// "Aarattu is fixed on Thiruvathira day in the month of Meenam and Thiruvutsavam is flagged off. Shiveli, Navakam, Panchakavyam, Sribhutabali all stays important. Aarattu stands on the eighth day.",
-// "Vishukani Darshan is offered in the presence of Shri Mahadev and Lord Vishnu (Narasimhamurthy) in the month of Medam.",
-// "In the month of Mithunam Chitra Nakshatra, consecration day to Shri Mahadev with Thousand Kudam Dhaara offered. For Maha Vishnu Navakam, Panchakavyam, Shri Bhootabali performed. One Kalasham to the sub-deities along with other poojas. 14 weeks of irikkal is important.",
-// "In the month of Karkitakam, Trikala pooja for Bhagavati stands special. Niraputtari is offered to Shri Mahadeva.",
-// "Also, special poojas to Sri Mahadev performed during Pradosha of every month and naga pooja, paalum noorum, kettuthiri theliyikkal to the Nagas on the Ayilyam day are conducted.",
-// "On Saturdays, Elluthiri (sesame seeds wick) theliyikkal is important for Saastha",
-// "On the First Friday of every Malayalam month, Ottappam vazhipadu is specially performed for Lord Ganesha."
-// ]
 
 export const SPECIALPOOJA:Specialpooja[]=[
     {
@@ -137,4 +123,83 @@ export const SPECIALPOOJA:Specialpooja[]=[
         moorthy:'Ganapathi',
         description:'Ottappam Vazhipaadu' 
     }
+]
+
+export const DARSHAN:Darshan[] = [
+    {
+        daytime:"Morning", 
+        time:'4.30', 
+        ritual:'Temple Nada Opening'
+    },
+    {
+        daytime:"Morning", 
+        time:'5.00', 
+        ritual:'Abhishekam'
+    },
+    {
+        daytime:"Morning", 
+        time:'5.15', 
+        ritual:'Malar Nivedyam'
+    },
+    {
+        daytime:"Morning", 
+        time:'5.30', 
+        ritual:'Usha Pooja'
+    },
+    {
+        daytime:"Morning", 
+        time:'5.45', 
+        ritual:'Ganapathi Homam'
+    },
+    {
+        daytime:"Morning", 
+        time:'6.00', 
+        ritual:'Prabata Pooja'
+    },
+    {
+        daytime:"Morning", 
+        time:'6.45', 
+        ritual:'Vishnu Pooja'
+    },
+    {
+        daytime:"Morning", 
+        time:'8.30', 
+        ritual:'Dhaara'
+    },
+    {
+        daytime:"Morning", 
+        time:'8.45', 
+        ritual:'Uccha Pooja'
+    },
+    {
+        daytime:"Morning", 
+        time:'9.30', 
+        ritual:'Temple Nada Closing'
+    },
+    {
+        daytime:"Evening", 
+        time:'5.00', 
+        ritual:'Temple Nada Opening'
+    },
+    {
+        daytime:"Evening", 
+        time:'6.15', 
+        ritual:'Deeparadhana'
+    },
+    {
+        daytime:"Evening", 
+        time:'7.00', 
+        ritual:'Athaazha Pooja'
+    },
+    {
+        daytime:"Evening", 
+        time:'7.25', 
+        ritual:'Thripuka'
+    },
+    {
+        daytime:"Evening", 
+        time:'7.30', 
+        ritual:'Temple Nada Closing'
+    }
+
 ]

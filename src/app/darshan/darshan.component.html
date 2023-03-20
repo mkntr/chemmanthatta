@@ -1,0 +1,20 @@
+<div class="table-responsive">
+    <table class="table table-striped caption-top">
+        <caption>Darshan Timing And Pooja Timing</caption>
+        <thead>
+        <tr>
+            <th scope="col">Day Time</th>
+            <th scope="col">Time</th>
+            <th scope="col">Ritual</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let record of darshan">
+            <td>{{record.daytime}}</td>
+            <td>{{record.time}}</td>
+            <td>{{record.ritual}}</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
