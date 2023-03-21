@@ -1,1 +1,17 @@
-<p>vazhipadu works!</p>
+<div class="table-responsive">
+    <table class="table table-striped caption-top">
+        <caption class="h5">Vazhipadu Details</caption>
+        <thead>
+        <tr>
+            <th scope="col">Upasana Moorthy</th>
+            <th scope="col">Vazhipadu</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let record of vazhipadu">
+            <td>{{record.whom}}</td>
+            <td>{{record.what}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

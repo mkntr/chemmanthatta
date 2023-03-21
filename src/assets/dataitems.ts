@@ -1,6 +1,7 @@
 import {Navitem} from '../app/model/navitem'
 import {Specialpooja } from '../app/model/specialpooja'
 import {Darshan} from '../app/model/darshan'
+import { Vazhipadu } from '../app/model/vazhipadu'
 
 export const NAVITEMS: Navitem[] = [
     {id:1, name:'Home'},
@@ -201,5 +202,335 @@ export const DARSHAN:Darshan[] = [
         time:'7.30', 
         ritual:'Temple Nada Closing'
     }
+]
 
+export const VAZHIPADU:Vazhipadu[] = [
+    {
+        whom:'All',
+        what:'Vilakku'
+    },
+    {
+        whom:'All',
+        what:'Pin Vilakku'
+    },
+    {
+        whom:'All',
+        what:'Kida Vilakku'
+    },
+    {
+        whom:'All',
+        what:'Nei Vilakku'
+    },
+    {
+        whom:'All',
+        what:'Nivedyam'
+    },
+    {
+        whom:'All',
+        what:'Maala'
+    },
+    {
+        whom:'All',
+        what:'Thirumudi Maala'
+    },
+    {
+        whom:'All',
+        what:'Pushpanjali'
+    },
+    {
+        whom:'Ganapathi',
+        what:'Karuka Maala'
+    },
+    {
+        whom:'Ganapathi',
+        what:'Ganapathi Homam'
+    },
+    {
+        whom:'Ganapathi',
+        what:'Kootu Ganapathi Homam'
+    },
+    {
+        whom:'Ganapathi',
+        what:'Ottappam'
+    },
+    {
+        whom:'Sivan , Vishnu',
+        what:'Tulasi Maala'
+    },   
+    {
+        whom:'Sivan , Vishnu',
+        what:'Sahasranama Pushpanjali'
+    },
+    {
+        whom:'Sivan',
+        what:'Kulaka / Koovala Maala'
+    },
+    {
+        whom:'Sivan',
+        what:'Dhaara'
+    },
+    {
+        whom:'Sivan',
+        what:'Sri Rudra Dhaara'
+    },
+    {
+        whom:'Sivan',
+        what:'Kulaka / Koovala Pushpanjali'
+    },
+    {
+        whom:'Sivan',
+        what:'Mrityunjaya Pushpanjali'
+    },   
+    {
+        whom:'Sivan',
+        what:'Swayamvara Pushpanjali'
+    },   
+    {
+        whom:'Sivan',
+        what:'108 Kulaka / Koovala Pushpanjali'
+    },    
+    {
+        whom:'Sivan',
+        what:'Aikamathya Sooktha Pushpanjali'
+    }, 
+    {
+        whom:'Sivan',
+        what:'Mrityunjaya Homam'
+    }, 
+    {
+        whom:'Sivan',
+        what:'101  Kudam Dhaara'
+    }, 
+    {
+        whom:'Sivan',
+        what:'41 Kudam Dhaara'
+    }, 
+    {
+        whom:'Sivan',
+        what:'Uma maheswara Pooja'
+    },
+    {
+        whom:'Sivan',
+        what:'1000 Kudam Dhaara'
+    },    
+    {
+        whom:'Sivan',
+        what:'Udayasthamana Pooja'
+    },
+    {
+        whom:'Sivan',
+        what:'Maha Mrityunjaya Homam'
+    },  
+    {
+        whom:'Bhagavathi',
+        what:'Vidya Sooktha Pushpanjali'
+    },
+    {
+        whom:'Bhagavathi',
+        what:'Raktha Pushpanjali'
+    },
+    {
+        whom:'Bhagavathi',
+        what:'Saraswathi Pooja'
+    },
+    {
+        whom:'Bhagavathi',
+        what:'Bhuvaneswari Pooja'
+    },
+    {
+        whom:'Vishnu',
+        what:'Shankhabhishekam'
+    }, 
+    {
+        whom:'Vishnu',
+        what:'Purusha Sooktha Pushpanjali'
+    },
+    {
+        whom:'Vishnu',
+        what:'Malar Nivedyam'
+    },
+    {
+        whom:'Vishnu',
+        what:'Sarkara Nivedyam'
+    },
+    {
+        whom:'Vishnu',
+        what:'Kadalipazha Nivedyam'
+    },   
+    {
+        whom:'Vishnu',
+        what:'Sudarsana Homam'
+    }, 
+    {
+        whom:'Vishnu',
+        what:'Thiruvona Pooja'
+    }, 
+    {
+        whom:'Vishnu',
+        what:'Panakam'
+    }, 
+    {
+        whom:'Navagraha',
+        what:'Raahu Pooja'
+    }, 
+    {
+        whom:'Navagraha',
+        what:'Navagraha Pooja'
+    },
+    {
+        whom:'Naagas',
+        what:'Naaga Pooja'
+    },
+    {
+        whom:'Naagas',
+        what:'Manjal Podi Aadal'
+    },
+    {
+        whom:'Saasthaavu',
+        what:'Neerajanam'
+    },
+    {
+        whom:'Saasthaavu',
+        what:'Ellu Thiri'
+    },
+    {
+        whom:'TBD',
+        what:'Baagya Sooktha Pushpanjali'
+    },
+    {
+        whom:'TBD',
+        what:'SatruSamhaara Pushpanjali'
+    },
+    {
+        whom:'TBD',
+        what:'Santhana Gopala Pushpanjali'
+    },
+    {
+        whom:'TBD',
+        what:'Aayur Sooktha Pushpanjali'
+    },
+    {
+        whom:'TBD',
+        what:'Paayasam'
+    },
+    {
+        whom:'TBD',
+        what:'Paal Paayasam'
+    },
+    {
+        whom:'TBD',
+        what:'Ellu Paayasam'
+    },
+    {
+        whom:'TBD',
+        what:'Samana Paayasam'
+    },
+    {
+        whom:'TBD',
+        what:'Pizhinju Paayasam'
+    },
+    {
+        whom:'TBD',
+        what:'Kootu Paayasam'
+    },
+    {
+        whom:'TBD',
+        what:'Thila Homam'
+    },
+    {
+        whom:'TBD',
+        what:'Karuka Homam'
+    },
+    {
+        whom:'TBD',
+        what:'Trikaala Pooja'
+    },
+    {
+        whom:'TBD',
+        what:'Nitya Pooja'
+    },
+    {
+        whom:'TBD',
+        what:'Oru Nerathe Pooja'
+    },
+    {
+        whom:'TBD',
+        what:'Paalum Podi'
+    },
+    {
+        whom:'TBD',
+        what:'Trimaduram'
+    },
+    {
+        whom:'TBD',
+        what:'Chandanam Chaarthal'
+    },
+    {
+        whom:'TBD',
+        what:'Niramaala'
+    },
+    {
+        whom:'TBD',
+        what:'Maala Poojikkan'
+    },
+    {
+        whom:'TBD',
+        what:'Vella Ari Nivedyam'
+    },
+    {
+        whom:'TBD',
+        what:'Nei Japikkal'
+    },
+    {
+        whom:'TBD',
+        what:'Bhagavat Seva'
+    },
+    {
+        whom:'TBD',
+        what:'Muttirakkal'
+    },
+    {
+        whom:'TBD',
+        what:'Avil Nivedyam'
+    },
+    {
+        whom:'TBD',
+        what:'Muzhu Kaapu'
+    },
+    {
+        whom:'TBD',
+        what:'Thulabhaaram'
+    },
+    {
+        whom:'TBD',
+        what:'Choroonu'
+    },
+    {
+        whom:'TBD',
+        what:'KettuNira'
+    },
+    {
+        whom:'TBD',
+        what:'Vivaham'
+    },
+    {
+        whom:'TBD',
+        what:'Vahana Pooja'
+    },
+    {
+        whom:'TBD',
+        what:'Nanaya Para'
+    },
+    {
+        whom:'TBD',
+        what:'Nel Para'
+    },
+    {
+        whom:'TBD',
+        what:'Ari Para'
+    },
+    {
+        whom:'Brahmarakshassu',
+        what:'Rakshassanu Paayasam'
+    }
 ]

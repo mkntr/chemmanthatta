@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { VAZHIPADU } from 'src/assets/dataitems';
 
 @Component({
   selector: 'app-vazhipadu',
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vazhipadu.component.css']
 })
 export class VazhipaduComponent implements OnInit {
-
+  vazhipadu = VAZHIPADU
+  
   constructor() { }
 
   ngOnInit(): void {
