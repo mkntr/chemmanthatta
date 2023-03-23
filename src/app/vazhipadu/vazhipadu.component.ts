@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { VAZHIPADU } from 'src/assets/dataitems';
 
 @Component({
@@ -8,7 +8,18 @@ import { VAZHIPADU } from 'src/assets/dataitems';
 })
 export class VazhipaduComponent implements OnInit {
   vazhipadu = VAZHIPADU
+  //to receive the value from parent component
+  @Input()
+  elementId = '';
+
+  //to send the value to parent component
+  @Output()
+  newEvent = new EventEmitter<string>()
   
+  callParentScrollEvent(value: string) {
+    this.newEvent.emit(value);
+  }
+
   constructor() { }
 
   ngOnInit(): void {

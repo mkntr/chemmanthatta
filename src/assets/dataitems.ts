@@ -15,7 +15,10 @@ export const NAVITEMS: Navitem[] = [
 
 export const TEMPLENAME = 'Chemmanthatta Mahadeva Kshethram'
 
-export const TEMPLELOGO = 'LordShivaDancingPose.png'
+export const TEMPLELOGO = 'Chemmanthattappan.png'
+
+export const IMGCAROUSEL = ['TempleView1.jpg','TempleView2.jpg','TempleView3.jpg','TempleView4.jpg','TempleView5.jpg',
+                        'TempleView6.jpg','TempleView7.jpg','TempleView8.jpg','TempleView9.jpg','TempleView10.jpg']
 
 export const POEM = [ 
 "Oh! Chemmanthattappa!",

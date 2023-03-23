@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col">
         <!-- Displays the main temple entrance image -->
-        <app-banner></app-banner> 
+        <app-banner id="banner"></app-banner> 
     </div>
 </div>
 <!-- Place buttons for Darshan Timing,Vazhipadu List, Special Poojas,Bank Account / QR code Details -->
@@ -16,11 +16,13 @@
 </div>
 <br>
 <!-- 1. Darshan Timing And Pooja Timing -->
-<app-darshan id="darshan"></app-darshan>
-<!-- 2. Vazhipadu List -->
-<app-vazhipadu id="vazhipadu"></app-vazhipadu>
+<app-darshan id="darshan" [elementId] = "'banner'" (newEvent)="scroll($event)"></app-darshan>
+<!-- 2. Vazhipadu List  -->
+<!-- passing banner string value to the elementId child binding property -->
+<app-vazhipadu id="vazhipadu" [elementId] = "'banner'" (newEvent)="scroll($event)"></app-vazhipadu> 
 <!-- 3. Special Poojas -->
-<app-specialpooja id="specialpooja"></app-specialpooja>
+<app-specialpooja id="specialpooja" [elementId] = "'banner'" (newEvent)="scroll($event)"></app-specialpooja>
 <!-- 4. Account Details -->
 <app-account id="account"></app-account>
+
 
