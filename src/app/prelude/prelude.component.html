@@ -1,8 +1,32 @@
+<div class="card">
 <figure>
     <blockquote class="blockquote">
-        <p *ngFor="let line of poem" >{{line}}</p>
+        <p *ngFor="let line of malayalampoem; index as i" >
+            <span class="fw-bold" *ngIf="i==0; else noBoldText">
+                {{line}}
+            </span>
+            <ng-template #noBoldText>
+                {{line}}
+            </ng-template>            
+        </p>
+    </blockquote>
+</figure>
+</div>
+<br>
+<div class="card">
+<figure>
+    <blockquote class="blockquote">
+        <p *ngFor="let line of poem; index as i" >
+            <span class="fw-bold" *ngIf="i==0; else noBoldText">
+                {{line}}
+            </span>
+            <ng-template #noBoldText>
+                {{line}}
+            </ng-template>            
+        </p>
     </blockquote>
     <figcaption class="blockquote-footer">
         English Transliteration <cite title="Source Title">Devotee Of Chemmanthattappan</cite>
     </figcaption>
 </figure>
+</div>
