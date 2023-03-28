@@ -1,6 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
 
 body{
-    background-color: #f0e6e6 !important;  
+    background-color: #ffffff !important;  
     /* #BFB2AA, #d7d7d7,#2BA8D9 */
+}
+
+.header-text{
+    color: #50292b !important;
+    font-size: 1.25rem !important;
+}
+
+.sub-header-text{
+    color: #50292b !important;
+    font-size: 1.0rem !important;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-weight: 500 !important;
+    background-color: transparent !important;
+    color: #50292b  !important;
+}
+
+.nav-link.active{
+    font-weight: 700 !important;
+    background-color: transparent !important;
+    color: #3bacc6 !important;
+    height: 1%;
+}
+
+.para-text{
+    color: #50292b !important;
+    font-weight: 500 !important;
+}
+
+th{
+    color: #50292b !important;
+    font-weight: 700 !important;
+}
+
+td{
+    color: #7f5539 !important;
+    font-weight: 500 !important;
 }
