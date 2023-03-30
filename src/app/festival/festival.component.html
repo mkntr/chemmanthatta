@@ -7,10 +7,10 @@
 
 <div class="container">
     <div class="sub-header-text">Temples Gallery</div>  
-    <div class="row ">
+    <div class="row ">       
         <div class="col" *ngFor="let item of gallery">
             <div class="card rounded-0 p-5 my-1 border-0 align-items-center" >
-                <img src="../../assets/img/{{item.imgSrc}}" class="card-img-top rounded-0 img-thumbnail img-fluid" [alt]="item.paraText" style="height: 10rem;width:15rem" >
+                <img src="../../assets/img/{{item.imgSrc}}" class="card-img-top rounded-0 img-thumbnail img-fluid" alt="{{item.paraText}}" style="height: 10rem;width:15rem" >
                 <span class="sub-header-text">{{item.headerText}}</span>
                 <p class="card-text">{{item.paraText}} </p>
             </div>

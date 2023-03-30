@@ -6,17 +6,17 @@ import { Gallery } from '../app/model/gallery'
 
 export const GALLERY:Gallery[]=[
     {
-        imgSrc:'Gallery1.jpeg', 
+        imgSrc:'Gallery1.jpg', 
         headerText:'Thiruvutsavam-2023', 
         paraText:'Main Temple Decoration'
     },
     {
-        imgSrc:'Gallery2.jpeg', 
+        imgSrc:'Gallery2.jpg', 
         headerText:'Thiruvutsavam-2023', 
         paraText:'Side Temple View'
     },
     {
-        imgSrc:'Gallery3.jpeg', 
+        imgSrc:'Gallery3.jpg', 
         headerText:'Thiruvutsavam-2023', 
         paraText:'Side Temple View'
     }
