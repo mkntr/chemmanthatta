@@ -2,6 +2,25 @@ import {Navitem} from '../app/model/navitem'
 import {Specialpooja } from '../app/model/specialpooja'
 import {Darshan} from '../app/model/darshan'
 import { Vazhipadu } from '../app/model/vazhipadu'
+import { Gallery } from '../app/model/gallery'
+
+export const GALLERY:Gallery[]=[
+    {
+        imgSrc:'Gallery1.jpeg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:'Main Temple Decoration'
+    },
+    {
+        imgSrc:'Gallery2.jpeg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:'Side Temple View'
+    },
+    {
+        imgSrc:'Gallery3.jpeg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:'Side Temple View'
+    }
+]
 
 export const NAVITEMS: Navitem[] = [
     {id:1, name:'Home'},
@@ -9,7 +28,7 @@ export const NAVITEMS: Navitem[] = [
     {id:3, name:'Deity'},
     {id:4, name:'Pooja'},
     {id:5, name:'Devaswom'},
-    {id:6, name:'Festival'},
+    {id:6, name:'Gallery'},
     {id:7, name:'Connect'}
 ]
 

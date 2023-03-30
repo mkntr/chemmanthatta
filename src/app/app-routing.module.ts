@@ -15,7 +15,7 @@ const routes: Routes = [
   { path:'deity', component:DeityComponent },
   { path:'pooja', component:PoojaComponent },
   { path:'devaswom', component:DevaswomComponent },
-  { path:'festival', component:FestivalComponent },
+  { path:'gallery', component:FestivalComponent },
   { path:'connect', component:ConnectComponent }
 ];
 

@@ -5,24 +5,24 @@
     </div>
 </div>
 <!-- Place buttons for Darshan Timing,Vazhipadu List, Special Poojas,Bank Account / QR code Details -->
-
-<div class="row">
-    <div class="col">
-        <button type="button" class="btn btn-primary me-2 my-2 btn-sm" (click)="scroll('darshan')" >Darshan Timing</button>
-        <button type="button" class="btn btn-success me-2 btn-sm" (click)="scroll('vazhipadu')">Vazhipadu</button>
-        <button type="button" class="btn btn-warning me-2 btn-sm" (click)="scroll('specialpooja')" >Special Poojas</button>
-        <button type="button" class="btn btn-info me-2 btn-sm" (click)="scroll('account')">Contribution</button>
+<div class="container my-2">
+    <div class="row">
+        <div class="col">
+            <button type="button" class="btn btn-primary me-2 my-2 btn-sm" (click)="scroll('darshan')" >Darshan Timing</button>
+            <button type="button" class="btn btn-success me-2 btn-sm" (click)="scroll('vazhipadu')">Vazhipadu</button>
+            <button type="button" class="btn btn-warning me-2 btn-sm" (click)="scroll('specialpooja')" >Special Poojas</button>
+            <button type="button" class="btn btn-info me-2 btn-sm" (click)="scroll('account')">Contribution</button>
+        </div>
     </div>
-</div>
 <br>
-<!-- 1. Darshan Timing And Pooja Timing -->
-<app-darshan id="darshan" [elementId] = "'banner'" (newEvent)="scroll($event)"></app-darshan>
-<!-- 2. Vazhipadu List  -->
-<!-- passing banner string value to the elementId child binding property -->
-<app-vazhipadu id="vazhipadu" [elementId] = "'banner'" (newEvent)="scroll($event)"></app-vazhipadu> 
-<!-- 3. Special Poojas -->
-<app-specialpooja id="specialpooja" [elementId] = "'banner'" (newEvent)="scroll($event)"></app-specialpooja>
-<!-- 4. Account Details -->
-<app-account id="account"></app-account>
-
+    <!-- 1. Darshan Timing And Pooja Timing -->
+    <app-darshan id="darshan" [elementId] = "'banner'" (newEvent)="scroll($event)"></app-darshan>
+    <!-- 2. Vazhipadu List  -->
+    <!-- passing banner string value to the elementId child binding property -->
+    <app-vazhipadu id="vazhipadu" [elementId] = "'banner'" (newEvent)="scroll($event)"></app-vazhipadu> 
+    <!-- 3. Special Poojas -->
+    <app-specialpooja id="specialpooja" [elementId] = "'banner'" (newEvent)="scroll($event)"></app-specialpooja>
+    <!-- 4. Account Details -->
+    <app-account id="account"></app-account>
+</div>
 
