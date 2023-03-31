@@ -7,16 +7,33 @@
             <div class="fw-bold text-start h5 p-0 m-0 header-text">{{templename}}</div>  
         </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-pills">
-                <li class="nav-item" *ngFor="let item of navitems">
-                    <a class="nav-link" [routerLink]="item.name | lowercase" routerLinkActive="active">{{item.name}}</a>
-                </li>           
-            </ul>
-        </div>
+        <!-- The header menu items will display as offcanvas for small screen size <=576; for other screens it will display the items in horizontal fashion -->
+        <ng-container *ngIf="getScreenWidth >576; else smallScreenSize">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-pills list-group-horizontal">
+                    <li class="nav-item me-4" *ngFor="let item of navitems">
+                        <a class="nav-link" [routerLink]="item.name | lowercase" routerLinkActive="active">{{item.name}}</a>
+                    </li>           
+                </ul>
+            </div>
+        </ng-container>
+        <ng-template #smallScreenSize>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasSupportedContent" aria-controls="offCanvasSupportedContent" aria-expanded="false" aria-label="off canvas navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offCanvasSupportedContent" aria-labelledby="offCanvasSupportedContent" style="height:-25vh; width: 50vw;">
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav nav-pills" id="navlist">
+                        <li class="nav-item" *ngFor="let item of navitems">
+                            <a class="nav-link" [routerLink]="item.name | lowercase" routerLinkActive="active">{{item.name}}</a>
+                        </li>           
+                    </ul>
+                </div>
+            </div>
+        </ng-template>
     </nav>
 </div>
