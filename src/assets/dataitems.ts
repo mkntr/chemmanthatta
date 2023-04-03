@@ -3,6 +3,7 @@ import {Specialpooja } from '../app/model/specialpooja'
 import {Darshan} from '../app/model/darshan'
 import { Vazhipadu } from '../app/model/vazhipadu'
 import { Gallery } from '../app/model/gallery'
+import { Administration } from '../app/model/administration'
 
 export const GALLERY:Gallery[]=[
     {
@@ -35,9 +36,34 @@ export const NAVITEMS: Navitem[] = [
 export const TEMPLENAME = 'Chemmanthatta Mahadeva Kshethram'
 
 export const TEMPLELOGO = 'Chemmanthattappan.png'
-
-export const IMGCAROUSEL = ['TempleView1.jpg','TempleView2.jpg','TempleView3.jpg','TempleView4.jpg','TempleView5.jpg',
+// 'TempleView2.jpg',
+export const IMGCAROUSEL = ['TempleView1.jpg','TempleView3.jpg','TempleView4.jpg','TempleView5.jpg',
                         'TempleView6.jpg','TempleView7.jpg','TempleView8.jpg','TempleView9.jpg','TempleView10.jpg']
+
+export const UPIPAY = 'upipay.jpg'
+
+export const ADDRESS = [
+    'General Secretary ',
+    'Uranma Devasom Board ',
+    'Paduthala, Kochi', 
+    'Pallikkaavu Madam', 
+    'Postal code: 680623',
+    'Kerala',
+    'Telephone: +91 04842402751'
+]
+
+export const ADMINISTRATION : Administration[] = [
+    {
+        what:'General Secretary', 
+        whom:'Azhvanchery Krishnan Thamprakkal',
+        imgSrc:'avatarimage.png'
+    },
+    {
+        what:'Administrative Officer', 
+        whom:'AK chandrasekharan Nair',
+        imgSrc:'avatarimage.png'
+    }
+]
 
 export const POEM = [ 
 "Oh! Chemmanthattappa!",
@@ -435,139 +461,135 @@ export const VAZHIPADU:Vazhipadu[] = [
         what:'Ellu Thiri'
     },
     {
-        whom:'TBD',
+        whom:'Bhagavathi, Sivan, Vishnu',
         what:'Baagya Sooktha Pushpanjali'
     },
     {
-        whom:'TBD',
+        whom:'Bhagavathi, Sivan',
         what:'SatruSamhaara Pushpanjali'
     },
     {
-        whom:'TBD',
+        whom:'Vishnu',
         what:'Santhana Gopala Pushpanjali'
     },
     {
-        whom:'TBD',
+        whom:'Sivan',
         what:'Aayur Sooktha Pushpanjali'
     },
     {
-        whom:'TBD',
-        what:'Paayasam'
+        whom:'Bhagavathi, Sivan',
+        what:'Sarkara Paayasam'
     },
     {
-        whom:'TBD',
+        whom:'Vishnu',
         what:'Paal Paayasam'
     },
     {
-        whom:'TBD',
+        whom:'Saasthaavu',
         what:'Ellu Paayasam'
     },
     {
-        whom:'TBD',
-        what:'Samana Paayasam'
-    },
-    {
-        whom:'TBD',
+        whom:'Sivan',
         what:'Pizhinju Paayasam'
     },
     {
-        whom:'TBD',
+        whom:'Bhagavathi, Sivan',
         what:'Kootu Paayasam'
     },
     {
-        whom:'TBD',
-        what:'Thila Homam'
+        whom:'Sivan',
+        what:'Thila Homam (Pitru Dosa Nivaranam)'
     },
     {
-        whom:'TBD',
-        what:'Karuka Homam'
+        whom:'Sivan',
+        what:'Karuka Homam (Balarishta Nivaranam)'
     },
     {
-        whom:'TBD',
+        whom:'Bhagavathi',
         what:'Trikaala Pooja'
     },
     {
-        whom:'TBD',
+        whom:'All',
         what:'Nitya Pooja'
     },
     {
-        whom:'TBD',
+        whom:'All',
         what:'Oru Nerathe Pooja'
     },
     {
-        whom:'TBD',
-        what:'Paalum Podi'
+        whom:'Naagas',
+        what:'Noorum Paalum'
     },
     {
-        whom:'TBD',
+        whom:'Sivan, Vishnu',
         what:'Trimaduram'
     },
     {
-        whom:'TBD',
+        whom:'Vishnu',
         what:'Chandanam Chaarthal'
     },
     {
-        whom:'TBD',
+        whom:'Sivan',
         what:'Niramaala'
     },
     {
-        whom:'TBD',
-        what:'Maala Poojikkan'
+        whom:'Saasthaavu',
+        what:'Maala Poojikkan (Sabarimala kettunira)'
     },
     {
-        whom:'TBD',
+        whom:'Naagas',
         what:'Vella Ari Nivedyam'
     },
     {
-        whom:'TBD',
+        whom:'Sivan',
         what:'Nei Japikkal'
     },
     {
-        whom:'TBD',
+        whom:'Bhagavathi',
         what:'Bhagavat Seva'
     },
     {
-        whom:'TBD',
+        whom:'Bhagavathi',
         what:'Muttirakkal'
     },
     {
-        whom:'TBD',
+        whom:'Vishnu',
         what:'Avil Nivedyam'
     },
     {
-        whom:'TBD',
+        whom:'Vishnu',
         what:'Muzhu Kaapu'
     },
     {
-        whom:'TBD',
+        whom:'Sivan Gopura Nadayil',
         what:'Thulabhaaram'
     },
     {
-        whom:'TBD',
+        whom:'Sivan Gopura Nadayil',
         what:'Choroonu'
     },
     {
-        whom:'TBD',
+        whom:'Saasthaavu',
         what:'KettuNira'
     },
     {
-        whom:'TBD',
+        whom:'Sivan Gopura Nadayil',
         what:'Vivaham'
     },
     {
-        whom:'TBD',
+        whom:'Sivan Gopura Nadayil',
         what:'Vahana Pooja'
     },
     {
-        whom:'TBD',
-        what:'Nanaya Para'
+        whom:'Sivan Gopura Nadayil',
+        what:'Naanaya Para'
     },
     {
-        whom:'TBD',
+        whom:'Sivan Gopura Nadayil',
         what:'Nel Para'
     },
     {
-        whom:'TBD',
+        whom:'Sivan Gopura Nadayil',
         what:'Ari Para'
     },
     {

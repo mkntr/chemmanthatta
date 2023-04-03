@@ -4,4 +4,28 @@
         <app-banner></app-banner> 
     </div>
 </div>
-<p>devaswom works!</p>
+
+<div class="container my-2">
+    <div class="sub-header-text">Uranma Devasom Board</div>  
+    <div class="row">
+        <div class="col" *ngFor="let item of administration">
+            <div class="card rounded-0 p-5 my-1 border-0 align-items-center" >
+                <img src="../../assets/img/{{item.imgSrc}}" class="card-img-top rounded-0 img-thumbnail img-fluid" alt="{{item.imgSrc}}" style="height: 15rem;width:15rem" >
+                <span class="header-text text-center">{{item.what}}</span>
+                <p class="sub-header-text text-center">{{item.whom}} </p>
+            </div>
+        </div>   
+    </div>
+    <div class="sub-header-text">Communication Address</div>  
+    <div class="row">
+        <div class="col" >
+            <div class="card rounded-0 p-5 my-1 border-0 align-items-center text-bg-light">
+                <blockquote class="blockquote text-center fw-bold para-text">
+                    <address  *ngFor="let item of address" >{{item}}</address>
+                </blockquote>
+            </div>
+        </div>   
+    </div>
+
+</div>
+
