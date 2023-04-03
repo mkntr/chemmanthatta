@@ -60,7 +60,7 @@ export const ADMINISTRATION : Administration[] = [
     },
     {
         what:'Administrative Officer', 
-        whom:'AK chandrasekharan Nair',
+        whom:'AK Chandrasekharan Nair',
         imgSrc:'avatarimage.png'
     }
 ]
