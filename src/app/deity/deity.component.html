@@ -4,4 +4,16 @@
         <app-banner></app-banner> 
     </div>
 </div>
-<p>deity works!</p>
+<div class="container my-2">
+    <div class="sub-header-text">Temples Gallery</div>  
+    <div class="row ">       
+        <div class="col" *ngFor="let item of deity">
+            <div class="card rounded-0 p-5 my-2 border-0 align-items-center" >
+                <img src="../../assets/img/{{item.imgSrc}}" class="card-img-top rounded-0 img-thumbnail img-fluid" alt="{{item.paraText}}" 
+                style="min-height: 15rem;min-width:20rem" >
+                <span class="sub-header-text">{{item.headerText}}</span>
+                <p class="card-text">{{item.paraText}} </p>
+            </div>
+        </div>   
+    </div>
+</div>

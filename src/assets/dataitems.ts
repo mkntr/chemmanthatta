@@ -7,21 +7,128 @@ import { Administration } from '../app/model/administration'
 
 export const GALLERY:Gallery[]=[
     {
-        imgSrc:'Gallery1.jpg', 
+        imgSrc:'utsavam2023_Pic1.jpg', 
         headerText:'Thiruvutsavam-2023', 
-        paraText:'Main Temple Decoration'
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic2.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic3.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	
+	{
+        imgSrc:'utsavam2023_Pic4.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
     },
     {
-        imgSrc:'Gallery2.jpg', 
+        imgSrc:'utsavam2023_Pic5.jpg', 
         headerText:'Thiruvutsavam-2023', 
-        paraText:'Side Temple View'
+        paraText:''
     },
     {
-        imgSrc:'Gallery3.jpg', 
+        imgSrc:'utsavam2023_Pic6.jpg', 
         headerText:'Thiruvutsavam-2023', 
-        paraText:'Side Temple View'
-    }
+		paraText:''
+    },
+    {
+        imgSrc:'utsavam2023_Pic7.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+    {
+        imgSrc:'utsavam2023_Pic8.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+    {
+        imgSrc:'utsavam2023_Pic9.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic10.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic11.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic12.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic13.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic14.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic15.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic16.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	{
+        imgSrc:'utsavam2023_Pic17.jpg', 
+        headerText:'Thiruvutsavam-2023', 
+        paraText:''
+    },
+	
 ]
+
+export const DEITY:Gallery[]=[
+    {
+        imgSrc:'DeityShiva.png', 
+        headerText:'Shivan', 
+        paraText:''
+    },
+	{
+        imgSrc:'DeityNarasimhaMurthy.png', 
+        headerText:'Narasimha Murthy', 
+        paraText:''
+    },
+	{
+        imgSrc:'DeityGanapathy.png', 
+        headerText:'Ganapathy', 
+        paraText:''
+    },
+	
+	{
+        imgSrc:'DeityDurgaKaliNaga.png', 
+        headerText:'Badrakali', 
+        paraText:''
+    },
+    {
+        imgSrc:'DeityNagas.png', 
+        headerText:'Nagas', 
+        paraText:''
+    },
+    {
+        imgSrc:'DeitySaasthavu.png', 
+        headerText:'Saasthavu', 
+		paraText:''
+    },
+]
+
 
 export const NAVITEMS: Navitem[] = [
     {id:1, name:'Home'},
