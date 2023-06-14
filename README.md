@@ -1,6 +1,10 @@
 # Chemmanthatta
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+It is for the temple chemmanthatta mahadeva temple at Thrissur (trichur). It is developed using bootstrap and angular.
+Most of the components are generic and thus could be reused with replacing the content in a easy manner.
+Responsive to mobile and desktop versions. 
+The intention of such project is to develop software that would facilitate most of the temples in Kerala.
 
 ## Development server
 
